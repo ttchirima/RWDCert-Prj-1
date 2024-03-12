@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+label {
+    grid-column: 1;
+}
+
+input, select, textarea, button {
+    grid-column: 2;
+}
